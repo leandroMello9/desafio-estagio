@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  margin: 2% auto;
+  justify-content:center;
+  border: solid 2px steelblue;
+  border-radius: 4px;
+
+}
+.list ul li {
+  display: flex;
+}
+.list ul li label {
+  margin: 2px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.list button {
+  margin-left: 15px;
+  width: 50px;
+  background-color: ghostwhite;
+}

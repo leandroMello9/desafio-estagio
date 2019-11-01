@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 0 auto;
+  align-items: center;
+  border: solid steelblue 3px;
+  border-radius: 6px;
+  padding: 10%;
+}
+form button {
+  border: 2px steelblue;
+  border-radius: 5px;
+}
